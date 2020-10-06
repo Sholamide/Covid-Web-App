@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(250,250,250);
+}
+
+.container {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 85%;
+}
+
+@media (max-width: 770px){
+    .container {
+        width: 100%;
+    }
+}
